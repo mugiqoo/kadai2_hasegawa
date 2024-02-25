@@ -70,14 +70,8 @@ img {
     padding:30px 0px 30px 0px;
 }
 
-.box3{
-    display: flex;
-    align-items:center;   
-}
-
 ul{
     display: flex;
-    justify-content: flex-end;
 }
 
 li{
@@ -95,12 +89,10 @@ li+li{
         display: block;
     }
 
-    .box3,ul{
+    ul{
         width: 100%;
         display: block;
-        justify-content: flex-start;
-
-        }
+    }
 
      li+li{
     border-left: none;
